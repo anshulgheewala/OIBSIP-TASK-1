@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Unit Converter App"
+        android:background="#3af"
+        android:paddingTop="12dp"
+        android:id="@+id/Topbar"
+        android:paddingLeft="12dp"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Topbar"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Value"
+        android:textAlignment="center"></EditText>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edittext"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:hint="Result"
+        android:paddingTop="12dp"
+        android:textSize="20dp" >
+    </TextView>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/result"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Clear result"
+        android:id="@+id/clr">
+    </Button>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/result"
+        android:layout_centerInParent="true"
+        android:id="@+id/gtokg"
+        android:layout_marginTop="80dp"
+        android:text="Grams To KiloGrams"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/kgtog"
+        android:layout_below="@+id/gtokg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="KiloGrams To Grams"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/kgtog"
+        android:id="@+id/cmtom"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Centimeter To Meter"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cmtom"
+        android:id="@+id/mtocm"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="meter To CentiMeter"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mtocm"
+        android:id="@+id/ctof"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Celcius To Fahrenheit"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ctof"
+        android:id="@+id/ftoc"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Fahrenheit To Celcius"></Button>
+
+
+
+
+
+
+</RelativeLayout>
